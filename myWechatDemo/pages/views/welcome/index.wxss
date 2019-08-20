@@ -1,0 +1,6 @@
+/* pages/views/welcome/index.wxss */
+.text{
+  width:100%;
+  background: #0f0;
+  text-align: center;
+}

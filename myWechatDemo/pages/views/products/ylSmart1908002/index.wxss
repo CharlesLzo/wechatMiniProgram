@@ -1,0 +1,41 @@
+.scroll{
+    height: 1000rpx;
+    margin-top:150rpx;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.box{
+    width: 100%;
+    height: 400rpx;
+}
+.box01{
+    background: rgb(202, 20, 20);
+}
+.box02{
+    background: rgb(19, 179, 27);
+}
+.box03{
+    background: rgb(4, 79, 150);
+}
+.box04{
+    background: rgb(246, 250, 10);
+}
+
+.scroll_col{
+    width:1000rpx;
+    height:400rpx;
+    margin-top: 150rpx;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.scroll_row_box{
+    width: 2000rpx;
+    display: flex;
+    flex-direction: row;
+}
+.box_col{
+    display: inline-block;
+    width:400rpx;
+    height: 400rpx;
+}
+

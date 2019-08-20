@@ -1,0 +1,28 @@
+.cover_box{
+    width: 666rpx;
+    height: 500rpx;
+    border: 2rpx solid rgb(113, 11, 153);
+}
+.cover_box_02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cover_img{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 5%;
+}
+
+.back_img{
+    width: 200rpx;
+    height: 200rpx;
+    background: url('../../../aStatic/image/kakaxi.jpg')
+}
+
+.back_url_img{
+    width: 200rpx;
+    height: 200rpx;
+    background: url('http://img4q.duitang.com/uploads/item/201505/01/20150501125423_taQGn.jpeg')
+}
+

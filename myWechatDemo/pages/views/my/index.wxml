@@ -1,0 +1,28 @@
+<view class="container">
+    <!-- scale-area	boolean 当里面的movable-view设置为支持双指缩放时，
+                            设置此值可将缩放手势生效区域修改为整个movable-area.
+     -->
+      <movable-area class="move_w" scale-area>
+        <!-- 
+          disabled		   boolean	是否禁用
+          inertia		     boolean	movable-view是否带有惯性
+          out-of-bounds	 boolean	超过可移动区域后，movable-view是否还可以移动
+          scale		       boolean	是否支持双指缩放，默认缩放手势生效区域是在movable-view内	
+          animation		   boolean	是否使用动画
+         -->
+        <movable-view class="move_b" direction="all" x="10" y="10" damping="20" friction="2" 
+          scale-min="0.5" scale-max="10" scale-value="1" 
+          inertia out-of-bounds scale animation 
+          bindchange="moveEvent">
+          <view class="advertisement_title">薛之谦同款</view>
+          <view class="advertisement_content">
+            <!-- 列表: 实现上下轮播 -->
+            ......
+          </view>
+        </movable-view>
+        <view>love</view>
+        <input class="" value="" type="text">
+          
+        </input>
+      </movable-area>
+</view>

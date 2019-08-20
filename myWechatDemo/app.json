@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/views/products/ylSmart1908002/index",
+    "pages/views/products/ylSmart1908001/index",
+    "pages/views/welcome/index",
+    "pages/views/my/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
