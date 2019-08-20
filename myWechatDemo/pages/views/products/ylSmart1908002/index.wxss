@@ -1,8 +1,6 @@
 .scroll{
     height: 1000rpx;
     margin-top:150rpx;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 .box{
     width: 100%;
@@ -21,17 +19,17 @@
     background: rgb(246, 250, 10);
 }
 
+
+
+
+
 .scroll_col{
     width:1000rpx;
     height:400rpx;
     margin-top: 150rpx;
-    /* display: flex; */
-    /* flex-direction: row; */
 }
-.scroll_row_box{
+.scroll_col_box{
     width: 2000rpx;
-    display: flex;
-    flex-direction: row;
 }
 .box_col{
     display: inline-block;

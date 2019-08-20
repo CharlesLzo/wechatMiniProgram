@@ -2,16 +2,17 @@
     <!-- 水平滚动条 -->
     <scroll-view 
         class="scroll_col" upper-threshold="50" lower-threshold="50" scroll-left="20" 
-        scroll-x scroll-with-animation enable-back-to-top 
+        scroll-x scroll-with-animation 
         scroll-into-view="" bindscrolltoupper="" bindscrolltolower="" bindscroll=""
     >
-        <!-- <view class="scroll_row_box"> -->
+        <view class="scroll_col_box">
             <view class="box_col box04"></view>
             <view class="box_col box03"></view>
             <view class="box_col box02"></view>
             <view class="box_col box01"></view>
-        <!-- </view> -->
+        </view>
     </scroll-view>
+
     <!-- 竖直滚动条 -->
     <scroll-view 
         class="scroll" upper-threshold="50" lower-threshold="50" scroll-top="20"
