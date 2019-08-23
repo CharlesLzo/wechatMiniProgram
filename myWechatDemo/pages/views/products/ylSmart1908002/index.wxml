@@ -11,17 +11,18 @@
             <view class="box_col box02"></view>
             <view class="box_col box01"></view>
         </view>
+        <view class="scroll_btn" binhover="onHoverHandle"></view>
     </scroll-view>
 
     <!-- 竖直滚动条 -->
     <scroll-view 
         class="scroll" upper-threshold="50" lower-threshold="50" scroll-top="20"
-        scroll-y scroll-with-animation enable-back-to-top 
+        scroll-x scroll-y scroll-with-animation enable-back-to-top 
         scroll-into-view="" bindscrolltoupper="" bindscrolltolower="" bindscroll=""
     >
-        <view class="box box01"></view>
-        <view class="box box02"></view>
-        <view class="box box03"></view>
-        <view class="box box04"></view>
+        <view class="box box01">你去过的地方我都去过，前后的故事大概听说，你爱过的人我揣摩过</view>
+        <view class="box box02">他怎么像你一样 话不多，你喜欢的我都尝试过，狼狈的样子你是否听说，那本书我撕去几页过</view>
+        <view class="box box03">你怎么还不来问我，在你喧闹的间隙，会不会想我，你编辑的文字，有没有删过</view>
+        <view class="box box04">其实我问题好多，又劝自己别说，我们这么久没见，却没人敢聊 重点，我们错过了几年 是应该成熟一点</view>
     </scroll-view>
 </view>

@@ -6,10 +6,10 @@ Page({
     data: {
   
     },
-    
-    moveEvent: function(e){
-      console.log("让我们一起摇摆~" + JSON.stringify(e.detail));
-      
+    // 自定义函数
+    onHoverHandle(){
+      let scrollBtn = document.getElementsByClassName('scroll_btn');
+      console.log('--------------滚动条的条条', scrollBtn);
     },
   
     /**
@@ -30,7 +30,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-  
+      
     },
   
     /**

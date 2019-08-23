@@ -1,0 +1,21 @@
+<view class="container">
+    <!-- 
+        indicator-dots 布尔 显示小点点
+        autoplay 布尔 自动切换
+        circular 布尔 衔接滑动
+        vertical 布尔 纵向滚动
+        skip-hidden-item-layout 布尔 跳过未显示的滑块布局
+     -->
+     <!-- current="{{current}}" current-item-id="{{currentItemId}}" -->
+    <swiper class="rotation" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}" next-margin="{{nextMmargin}}" display-multiple-items="{{displayMultipleItems}}" easing-function="{{easingFunction}}" 
+    indicator-color="rgba(255, 255, 255, .5)" indicator-active-color="rgb(255, 255, 255)" 
+    indicator-dots autoplay circular skip-hidden-item-layout
+    bindchange="" bindanimationfinish="">
+    <!-- wx:key="{{index}}" -->
+        <block wx:for="{{imgUrls}}" wx:key="key">
+            <swiper-item class="slide_img_box" item-id="">
+                <image class="slide_img" src="{{item}}"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

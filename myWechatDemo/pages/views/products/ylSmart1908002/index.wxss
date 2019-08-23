@@ -1,11 +1,39 @@
+/* 竖直滚动条 */
 .scroll{
     height: 1000rpx;
-    margin-top:150rpx;
+    margin-top:300rpx;
 }
 .box{
-    width: 100%;
+    width: 2000rpx;
     height: 400rpx;
 }
+
+/* 水平滚动条 */
+.scroll_col{
+    width:1000rpx;
+    height:400rpx;
+    margin-top: 150rpx;
+    position: relative;
+}
+.scroll_col_box{
+    width: 2000rpx;
+}
+.box_col{
+    display: inline-block;
+    width:400rpx;
+    height: 400rpx;
+}
+.scroll_btn{
+    height:10rpx;
+    width:400rpx;
+    background: rgba(5, 5, 5, 0.5);
+    position: absolute;
+    bottom: 50rpx;
+    left:10rpx;
+    z-index: 999;
+}
+
+/* 公共样式 */
 .box01{
     background: rgb(202, 20, 20);
 }
@@ -18,22 +46,3 @@
 .box04{
     background: rgb(246, 250, 10);
 }
-
-
-
-
-
-.scroll_col{
-    width:1000rpx;
-    height:400rpx;
-    margin-top: 150rpx;
-}
-.scroll_col_box{
-    width: 2000rpx;
-}
-.box_col{
-    display: inline-block;
-    width:400rpx;
-    height: 400rpx;
-}
-

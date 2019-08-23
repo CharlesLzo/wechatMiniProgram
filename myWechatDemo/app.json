@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/views/products/ylSmart1908004/index",
+    "pages/views/products/ylSmart1908003/index",
     "pages/views/products/ylSmart1908002/index",
     "pages/views/products/ylSmart1908001/index",
     "pages/views/welcome/index",

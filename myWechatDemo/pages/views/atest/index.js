@@ -7,10 +7,10 @@ Page({
   
     },
     
-    moveEvent: function(e){
-      console.log("让我们一起摇摆~" + JSON.stringify(e.detail));
-      
-    },
+    /**
+    * 自定义函数
+    */ 
+    // ……
   
     /**
      * 生命周期函数--监听页面加载

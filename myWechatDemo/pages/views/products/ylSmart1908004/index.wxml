@@ -1,0 +1,37 @@
+<view class="box">
+    <view class="tabs">
+        <view class="tab_btn">标签1</view>
+        <!-- {{'':'tab_btn_act'}} -->
+        <view class="tab_btn ">标签2</view>
+        <view class="tab_btn">标签3</view>
+    </view>
+    <swiper class="slide" interval="{{interval}}" duration="{{duration}}" autoplay circular >
+        <swiper-item class="slide_item">
+            <scroll-view class="scroll_box" scroll-y scroll-with-animation>
+                <view class="item" style="background: rgb(138, 6, 6)"></view>
+                <view class="item" style="background: rgb(25, 148, 9)"></view>
+                <view class="item" style="background: rgb(228, 224, 21)"></view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item class="slide_item">
+            <scroll-view class="scroll_box" scroll-y scroll-with-animation>
+                <view class="item">
+                    <image class="img" src="{{imgUrls[0]}}"></image>
+                </view>
+                <view class="item">
+                    <image class="img" src="{{imgUrls[1]}}"></image>
+                </view>
+                <view class="item">
+                    <image class="img" src="{{imgUrls[2]}}"></image>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item class="slide_item">
+            <scroll-view class="scroll_box" scroll-y scroll-with-animation>
+                <view class="item" style="background: rgb(114, 155, 245)"></view>
+                <view class="item" style="background: rgb(194, 78, 240)"></view>
+                <view class="item" style="background: rgb(247, 75, 75)"></view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>
