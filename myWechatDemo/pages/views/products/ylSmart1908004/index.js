@@ -4,6 +4,7 @@ Page({
      * 页面的初始数据
      */
     data: {
+      isClick:true,
       interval: '2000',// 自动切换时间间隔
       duration: '300',// 滑动动画时长
       imgUrls: [
@@ -16,10 +17,24 @@ Page({
     /**
     * 自定义函数
     */ 
-    // ……
-  
+    tabClick(e){
+      // console.log('----------this', this);
+      console.log('----------------e', e.target.id);
+      let id = e.target.id;
+      // let ele = document.getElementsById('tab1');
+      // console.log('========ele', ele);
+      let query = wx.createSelectorQuery().select('tab1')
+      console.log('========query', query);
+      this.setData({
+        "background":"red"
+      })
+      
+      
+      
+    },
+    
     /**
-     * 生命周期函数--监听页面加载
+     * 生命周期函数--监听页面加载`
      */
     onLoad: function (options) {
   
