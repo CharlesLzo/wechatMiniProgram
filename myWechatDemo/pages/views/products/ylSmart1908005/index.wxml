@@ -1,0 +1,23 @@
+<view class="container">
+    <view class="mask">
+        <icon class="" type="success" size="23" color="green"></icon>
+    </view>
+    <view>
+        <view>
+            <progress class="progress" percent="60" show-info active></progress>
+        </view>
+        <view class="text_box">
+            <!-- open-type="contact|share|getUserInfo|openSetting|feedback" -->
+            <button class="default" bindtap="reduce">-</button>
+            <text class="text">
+                {{num}}
+            </text>
+            <button class="default" bindtap="add">+</button>
+        </view>
+        <view>
+            <rich-text class="rich_text" nodes="{{nodes}}">
+                
+            </rich-text>
+        </view>
+    </view>
+</view>

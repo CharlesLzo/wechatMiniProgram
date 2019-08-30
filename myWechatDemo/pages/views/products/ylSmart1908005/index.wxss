@@ -1,0 +1,23 @@
+.progress{
+    width: 600rpx;
+    height:80rpx;
+}
+.text_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    display: block;
+    width: 100rpx;
+    height:90rpx;
+    line-height: 30rpx;
+    text-align: center;
+    background: #eee;
+    border:2rpx solid #f00;
+}
+.rich_text{
+    width: 600rpx;
+    max-height: 600rpx;
+    overflow-y: scroll;
+}
