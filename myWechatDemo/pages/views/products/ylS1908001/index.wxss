@@ -26,3 +26,6 @@
     background: url('http://img4q.duitang.com/uploads/item/201505/01/20150501125423_taQGn.jpeg')
 }
 
+.back_btn{
+    border-bottom: 2rpx solid rgb(39, 125, 238);
+}

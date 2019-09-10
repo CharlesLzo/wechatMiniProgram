@@ -1,20 +1,54 @@
 {
-  "pages": [
-    "pages/views/products/ylSmart1908005/index",
-    "pages/views/products/ylSmart1908004/index",
-    "pages/views/products/ylSmart1908003/index",
-    "pages/views/products/ylSmart1908002/index",
-    "pages/views/products/ylSmart1908001/index",
-    "pages/views/welcome/index",
-    "pages/views/my/index",
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/other/index",
+      "text": "其他"
+    }]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle": "black"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/views/welcome/index",
+    "pages/views/my/index",
+    "pages/logs/logs",
+    "pages/other/index"
+  ],
+  "subPackages":[
+    {
+      "root" : "pages/views/function/",
+      "name" : "function",
+      "pages" : [
+        "preDownload01/index",
+        "form/index"
+      ]
+    },
+    {
+      "root" : "pages/views/products/",
+      "name" : "produts",
+      "pages" : [
+        "ylS1908001/index",
+        "ylS1908002/index",
+        "ylS1908003/index",
+        "ylS1908004/index",
+        "ylS1908005/index"
+      ]
+    }
+  ],
+  "preloadRule":{
+    "pages/index/index":{
+      "network" : "all",
+      "packages" : [
+        "function"
+      ]
+    }
   },
   "sitemapLocation": "sitemap.json"
 }

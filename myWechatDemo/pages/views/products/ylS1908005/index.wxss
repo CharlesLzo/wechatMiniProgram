@@ -18,6 +18,7 @@
 }
 .rich_text{
     width: 600rpx;
+    height: 100rpx;
     max-height: 600rpx;
     overflow-y: scroll;
 }

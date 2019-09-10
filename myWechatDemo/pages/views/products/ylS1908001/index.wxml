@@ -1,7 +1,6 @@
 <view class="container">
     <!-- 遗留问题：
     如何覆盖在map、canvas等原生组件之上 -->
-
     <cover-view class="cover_wrap" scroll-top="0">
         通过cover-view和cover-image来引入图片：
         <cover-view class="cover_box cover_box_01" scroll-top="0">
@@ -2515,5 +2514,6 @@
         mode="aspectFit" lazy-load="false" 
         binderror="imgLoadSuccessBase64" bindload="imgLoadFailBase64"
         ></image>
-    </view>    
+    </view>  
+    <view class="back_btn" bindtap="backClick">back</view>
 </view>

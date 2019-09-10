@@ -6,18 +6,17 @@ Page({
      */
     data: {
       num: 0,
-      nodes:[
-        {
-          name:"于老师",
-          hobbys:['抽烟', '喝酒', '烫头'],
-          other: "摇滚癫狂魔王"
+      nodes: [{
+        name: 'div',
+        attrs: {
+          class: 'div_class',
+          style: 'line-height: 60px; color: red;'
         },
-        {
-          name:"刚老师",
-          hobbys:['说', '学', '逗', '唱'],
-          other: "半个戏子说笑话"
-        }
-      ]
+        children: [{
+          type: 'text',
+          text: 'Hello&nbsp;World!'
+        }]
+      }]
     },
     
     /**
@@ -38,6 +37,10 @@ Page({
       this.setData({
         num:num++
       })
+    },
+
+    tap() {
+      console.log('tap')
     },
   
     /**

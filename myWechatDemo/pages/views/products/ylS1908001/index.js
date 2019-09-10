@@ -25,6 +25,10 @@ Page({
     imgLoadFailBase64(){
       console.log("Base64网络-图片加载失败");
       
-    }
-   
+    },
+    backClick(){
+      wx.navigateTo({
+        url:'../../function/preDownload01/index'
+      })
+    },
   })

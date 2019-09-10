@@ -15,9 +15,8 @@
             <button class="default" bindtap="add">+</button>
         </view>
         <view>
-            <rich-text class="rich_text" nodes="{{nodes}}">
-                
-            </rich-text>
+            <!-- <rich-text class="rich_text" nodes="{{nodes}}"></rich-text> -->
+            <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
         </view>
     </view>
 </view>

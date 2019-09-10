@@ -25,4 +25,5 @@
         <view class="box box03">你怎么还不来问我，在你喧闹的间隙，会不会想我，你编辑的文字，有没有删过</view>
         <view class="box box04">其实我问题好多，又劝自己别说，我们这么久没见，却没人敢聊 重点，我们错过了几年 是应该成熟一点</view>
     </scroll-view>
+    <view class="back_btn" bindtap="backClick">back</view>
 </view>

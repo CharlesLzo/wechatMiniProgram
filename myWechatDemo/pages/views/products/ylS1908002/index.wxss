@@ -46,3 +46,8 @@
 .box04{
     background: rgb(246, 250, 10);
 }
+
+
+.back_btn{
+    border-bottom: 2rpx solid rgb(39, 125, 238);
+}

@@ -6,11 +6,11 @@ Page({
     data: {
   
     },
-    // 自定义函数
-    onHoverHandle(){
-      let scrollBtn = document.getElementsByClassName('scroll_btn');
-      console.log('--------------滚动条的条条', scrollBtn);
-    },
+    
+    /**
+    * 自定义函数
+    */ 
+    // ……
   
     /**
      * 生命周期函数--监听页面加载
@@ -30,7 +30,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-      
+  
     },
   
     /**
