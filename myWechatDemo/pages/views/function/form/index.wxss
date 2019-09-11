@@ -1,1 +1,4 @@
 /* pages/views/function//form/index.wxss */
+page{
+    background: #ddd;
+}

@@ -1,7 +1,7 @@
 /**index.wxss**/
 .nav{
     text-align: center;
-    text-decoration: rgb(92, 169, 241);
+    border-bottom: 2rpx solid rgb(8, 95, 177);
 }
 
 

@@ -6,6 +6,7 @@ Page({
      * 页面的初始数据
      */
     data: {
+      pageNum:0,//前一个页面数
       tabId:'',
       tabs:[
         {
@@ -34,9 +35,12 @@ Page({
      * 生命周期函数--监听页面加载`
      */
     onLoad: function (options) {
-      // var num = app.getCurrentPages();
-      // console.log('------页面栈', num);
-      
+      // 获取总页面数
+      var pageNum = getCurrentPages().length;// 是2
+      this.setData({// 设置前一个页面数
+        "pageNum" : pageNum-2
+      })
+            
       // 初始化数据
       this.setData({
         tabId:'1',
@@ -103,12 +107,33 @@ Page({
     },
     gotoPage2(){// reLaunch-关闭所有页面，打开到应用内的某个页面
       wx.reLaunch({
-        url:'../../products/ylSmart1908002/index'
-      })
+        url: '../../products/ylS1908002/index',
+        success: (res) => {
+          console.log('222------res', res);
+
+          // success
+          wx.showToast({
+            title:'成功进入222',
+            icon:'none'
+          })
+        },
+        fail: () => {
+          wx.showToast({
+            title:'失败',
+            icon:'none'
+          })
+        },
+        complete: () => {
+          wx.showToast({
+            title:'好好学习，天天向上！',
+            icon:'none'
+          })
+        }
+      });
     },
     gotoPage3(){// redirectTo-关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页面。
       wx.redirectTo({
-        url: '../../products/ylSmart1908003/index',
+        url: '../../products/ylS1908003/index',
         success: function(res){
           console.log('333------res', res);
 
@@ -136,7 +161,7 @@ Page({
     },
     gotoPage4(){// navigateTo-保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。
       wx.navigateTo({
-        url: '../../products/ylSmart1908005/index',
+        url: '../../products/ylS1908005/index',
         success: function(res){
           console.log('444------res', res);
 
@@ -164,7 +189,7 @@ Page({
     },
     gotoPage5(){// navigateBack-关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages 获取当前的页面栈，决定需要返回几层。
       wx.navigateBack({
-        delta: 1, // 回退前 delta(默认为1) 页面
+        delta: this.data.pageNum, // 回退前 delta(默认为1,这里取到的是0) 页面
         success: function(res){
           console.log('返回上一页了');
           
@@ -189,5 +214,19 @@ Page({
           })
         }
       })
+    },
+    gotoForm(){
+      wx.navigateTo({
+        url: '../../function/form/index',
+        success: function(res){
+          // success
+        },
+        fail: function() {
+          // fail
+        },
+        complete: function() {
+          // complete
+        }
+      })
     }
-  })
+})

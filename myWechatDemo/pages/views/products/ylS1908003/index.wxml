@@ -18,5 +18,4 @@
             </swiper-item>
         </block>
     </swiper>
-    <view class="back_btn" bindtap="backClick">back</view>
 </view>

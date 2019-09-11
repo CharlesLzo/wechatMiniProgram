@@ -35,18 +35,13 @@
             </scroll-view>
         </swiper-item>
     </swiper>
+    <view>路由学习</view>
     <view class="page_btns">
         <view class="btn" bindtap="gotoPage1">探索1</view>
         <view class="btn" bindtap="gotoPage2">探索2</view>
         <view class="btn" bindtap="gotoPage3">探索3</view>
         <view class="btn" bindtap="gotoPage4">探索4</view>
         <view class="btn" bindtap="gotoPage5">返回指定栈页</view>
-    </view>
-    <view class="page_btns">
-        <view class="btn" bindtap="gotoPage1">正常1</view>
-        <view class="btn" bindtap="gotoPage2">正常2</view>
-        <view class="btn" bindtap="gotoPage3">正常3</view>
-        <view class="btn" bindtap="gotoPage4">正常4</view>
-        <view class="btn" bindtap="gotoPage5">返回指定栈页</view>
+        <view class="btn" bindtap="gotoForm">表单学习</view>
     </view>
 </view>

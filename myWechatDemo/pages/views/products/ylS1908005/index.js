@@ -23,19 +23,15 @@ Page({
     * 自定义函数
     */ 
     // 
-    reduce(e){
-      console.log('-----this', this);
-      console.log('---------e', e);
-
-      
-      
+    reduce(){
+      this.data.num > 0 ? this.data.num -= 1 : this.data.num = 0;
       this.setData({
-        num:num--
+        "num" : this.data.num
       })
     },
     add(){
       this.setData({
-        num:num++
+        "num" : this.data.num += 1
       })
     },
 
