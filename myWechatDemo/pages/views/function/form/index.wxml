@@ -11,20 +11,29 @@
         
         <view class="section">
             <view class="section__title">input</view>
-            <input name="input" placeholder="please input here" />
+            <view class='telnum'>
+                <text class='telnum-text'>手机号</text>
+                <input name="nnnumber" type='number' class='telnum-inp' placeholder='请输入手机号' placeholder-class="inpholder" maxlength='11' bindblur='phoneBlur' value='{{phone}}' ></input>
+            </view>
+            <!-- <input name="input" class="input" placeholder="please input here" onmousewheel="return false;" />
+            <input name="input_text" class="input" type="text" placeholder="ppxwmz" placeholder-class="gg" />
+            <input name="input_number" class="input" type="number"/>
+            <input name="input_idcard" class="input" type="idcard"/>
+            <input name="input_digit" class="input" type="digit"/>
+            <input name="input_date" class="input" type="date"/> -->
         </view>
         <view class="section section_gap">
             <view class="section__title">radio</view>
             <radio-group name="radio-group">
-            <label><radio value="radio1"/>radio1</label>
-            <label><radio value="radio2"/>radio2</label>
+                <label><radio value="radio1"/>radio1</label>
+                <label><radio value="radio2"/>radio2</label>
             </radio-group>
         </view>
         <view class="section section_gap">
             <view class="section__title">checkbox</view>
             <checkbox-group name="checkbox">
-            <label><checkbox value="checkbox1"/>checkbox1</label>
-            <label><checkbox value="checkbox2"/>checkbox2</label>
+                <label><checkbox value="checkbox1"/>checkbox1</label>
+                <label><checkbox value="checkbox2"/>checkbox2</label>
             </checkbox-group>
         </view>
         <view class="btn-area">

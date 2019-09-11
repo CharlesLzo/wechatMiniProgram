@@ -2,3 +2,34 @@
 page{
     background: #ddd;
 }
+.telnum {
+  height: 94rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx; 
+}
+.telnum-text {
+  margin-left: 30rpx; 
+}
+.input{
+  border:1rpx solid #fff;
+  border-radius: 10rpx;
+  margin:10rpx 0 10rpx 20rpx;
+  background: #fff;
+  width: 330rpx;
+  font-size: 32rpx;
+}
+.sendinput-inp {
+  margin-left: 20rpx;
+  width: 330rpx;
+  font-size: 32rpx;
+  height: 100%;
+  color: #cf7d7d; 
+}
+.inpholder {
+color: #999; 
+}
+.gg{
+color:brown;
+}
