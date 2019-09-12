@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "首页"
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "One" : "../common/components/One/index",
+    "Dialog" : "../common/components/Dialog/index"
+  }
 }

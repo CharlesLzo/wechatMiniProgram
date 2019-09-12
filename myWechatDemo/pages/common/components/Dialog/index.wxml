@@ -1,0 +1,8 @@
+<view>
+    <view class="title">{{title}}</view>
+    <view class="content">{{content}}</view>
+    <view class="dialog_btn_box">
+        <button class="dialog_btn flex" wx:if="{{cancleBtn}}">取消</button>
+        <button class="dialog_btn flex" wx:if="{{sureBtn}}">确定</button>
+    </view>
+</view>

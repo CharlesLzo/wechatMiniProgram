@@ -5,13 +5,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 100rpx 0 0 0;
   box-sizing: border-box;
+  background: #fff;
 } 
-/* 自定义公共样式 */
+/* 浮动 */
 .fl{
   float: left;
 }
 .fr{
   float: right;
+}
+/* 分割线 */
+.split_line_solid{
+  margin:20rpx 0;
+  width: 100%;
+  border-top:1rpx solid #aaa;
+}
+.split_line_dotted{
+  margin:20rpx 0;
+  width: 100%;
+  border-top:1rpx dotted #aaa;
+}
+/* 弹框 */
+.my_dialog{
+  width: 180px;
+  background: #fff;
+  box-shadow: 6 6 6 #aaa;
+  margin: 0 auto;
+  padding: 10px;
+}
+.dialog_btn{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;   
+  text-align: center;
+  background: rgb(190, 48, 48);
+  color: rgb(21, 21, 21);
+  font-size: 18px;
+  border-radius: 5px;
+}
+/* 弹性盒 */
+.flex{
+  flex: 1;
 }

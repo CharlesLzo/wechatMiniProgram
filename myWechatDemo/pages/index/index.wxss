@@ -3,7 +3,18 @@
     text-align: center;
     border-bottom: 2rpx solid rgb(8, 95, 177);
 }
-
+.component_box{
+    border:1px solid rgb(9, 17, 88);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #eee;
+}
+.component{
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 

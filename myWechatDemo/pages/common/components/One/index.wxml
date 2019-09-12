@@ -1,0 +1,6 @@
+<view class="wrapper">
+    <view>这里是组件的内部节点</view>
+    <slot></slot>
+    <slot name="before"></slot>
+    <slot name="last"></slot>
+</view>

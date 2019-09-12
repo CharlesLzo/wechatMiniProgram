@@ -1,0 +1,15 @@
+.title{
+    margin: 20px auto 0;
+    font-size: 20px;
+    color:rgb(21, 21, 21);
+}
+.content{
+    margin: 10px auto;
+    font-size:16px;
+}
+.dialog_btn_box{
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+}
