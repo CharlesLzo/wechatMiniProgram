@@ -15,6 +15,7 @@
     "navigationBarTextStyle": "black"
   },
   "pages": [
+    "pages/views/Monitor/index",
     "pages/index/index",
     "pages/views/welcome/index",
     "pages/views/my/index",

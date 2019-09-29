@@ -17,7 +17,7 @@ Page({
   //事件处理函数
   gotoNext(){
     wx.navigateTo({
-      url: '../views/products/ylSmart1908004/index',
+      url: '../views/products/ylS1908004/index',
       success: function(res){
         // success
         console.log('----res', res);

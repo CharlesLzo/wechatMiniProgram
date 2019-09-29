@@ -30,8 +30,8 @@ Component({
     exterCtrl : false,
     title : '',
     content : '',
-    srueBtn : true,
-    cancelBtn : true
+    sureBtn : true,
+    cancleBtn : true
   },
   methods: {
     //隐藏弹框 
