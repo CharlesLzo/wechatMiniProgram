@@ -15,12 +15,13 @@
     "navigationBarTextStyle": "black"
   },
   "pages": [
-    "pages/views/Monitor/index",
+    "pages/views/Monitor/wacherTwo/index",
     "pages/index/index",
     "pages/views/welcome/index",
     "pages/views/my/index",
     "pages/logs/logs",
-    "pages/other/index"
+    "pages/other/index",
+    "pages/views/Monitor/watcher/index"
   ],
   "subPackages":[
     {

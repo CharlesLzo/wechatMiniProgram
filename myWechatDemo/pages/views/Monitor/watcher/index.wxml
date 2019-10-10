@@ -1,5 +1,5 @@
 <view>
     <input style="margin:0 20rpx;" placeholder="请输入你的想法" value="{{name}}" maxlength="140" 
-    bindfocus="getValue" bindblur="checkValue" data-idea="{{idea}}"></input>
+     bindblur="checkValue" data-idea="{{idea}}"></input>
     <view style="border:1rpx solid #ddd"></view>
 </view>
