@@ -1,6 +1,6 @@
 
 // const { watch, computed } = require('./vuefy.js')
-import { watch, computed } from './vuefy.js'
+import { watch, computed } from './watcher.js'
 
 Page({
   data: {
@@ -8,6 +8,8 @@ Page({
     test1: 'test1',
   },
   onLoad() {
+    console.log('----------this', this);
+    
     // computed(this, {
     //   test2: function() {
     //     return this.data.test.a + '2222222'
@@ -18,12 +20,13 @@ Page({
     // })
     watch(this, {
       test: function(newVal) {
-        console.log('invoke watch')
-        this.setData({ test1: newVal.a + '11111111' })
+        console.log('--------------------newVal', newVal)
+        
+        this.setData({ test1: newVal.a })
       }
     })
   },
   changeTest() {
-    this.setData({ test: { a: Math.random().toFixed(5) } })
+    this.setData({ test: { a: Math.random().toFixed(2) } })
   },
 })

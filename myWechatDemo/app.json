@@ -15,7 +15,8 @@
     "navigationBarTextStyle": "black"
   },
   "pages": [
-    "pages/views/Monitor/wacherTwo/index",
+    "pages/views/Monitor/watcherThree/index",
+    "pages/views/Monitor/watcherTwo/index",
     "pages/index/index",
     "pages/views/welcome/index",
     "pages/views/my/index",

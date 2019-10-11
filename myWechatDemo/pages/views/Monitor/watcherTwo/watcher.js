@@ -1,5 +1,8 @@
 function watch(ctx, obj) {
   Object.keys(obj).forEach(key => {
+    console.log('----key', key);
+    console.log('----key', ctx.data[key]);
+    
     defineReactive(ctx.data, key, ctx.data[key], function(value) {
       obj[key].call(ctx, value)
     })
@@ -25,6 +28,8 @@ function computed(ctx, obj) {
   
 function defineReactive(data, key, val, fn) {
   let subs = data['$' + key] || []
+  console.log('==========subs', subs);
+  
   Object.defineProperty(data, key, {
     configurable: true,
     enumerable: true,
