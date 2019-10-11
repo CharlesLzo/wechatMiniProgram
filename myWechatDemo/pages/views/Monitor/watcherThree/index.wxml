@@ -1,3 +1,3 @@
 <view>
-    <input style="border-bottom:2rpx solid #000;" type="text" placeholder="请输入本金" bindinput="changeVal"/>
+    <input style="border-bottom:2rpx solid #000;" type="text" placeholder="请输入本金" bindblur="changeVal" value="{{money}}"/>
 </view>

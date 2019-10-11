@@ -16,7 +16,6 @@ function Watcher() {
 
       changeValue = value;
       resArr.push({ val: changeValue });
-      fn(resArr);
     }
   });
 
